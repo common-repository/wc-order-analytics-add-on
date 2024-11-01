@@ -1,0 +1,58 @@
+.order-analytics-setting {
+  padding: 24px 24px;
+  max-width: 600px;
+  border: 1px solid #c3c4c7;
+  background: #fff; }
+  .order-analytics-setting .meta-header {
+    padding-bottom: 24px;
+    align-items: center;
+    display: flex; }
+    .order-analytics-setting .meta-header h1 {
+      margin-right: 15px;
+      padding-top: 0;
+      padding-bottom: 0; }
+  .order-analytics-setting .add-icon {
+    font-weight: 500;
+    font-size: large; }
+  .order-analytics-setting .add-row {
+    border-radius: 15px;
+    background-color: #6D7AE0;
+    color: #ffffff;
+    border: none;
+    padding: 5px 20px 7px 20px;
+    cursor: pointer; }
+    .order-analytics-setting .add-row:hover {
+      background-color: #dedede;
+      color: black; }
+  .order-analytics-setting .remove-row {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: transparent; }
+    .order-analytics-setting .remove-row i.dashicons-trash {
+      font-size: 18px;
+      line-height: 20px; }
+      .order-analytics-setting .remove-row i.dashicons-trash:hover {
+        color: #b83636; }
+  .order-analytics-setting table {
+    border: 0;
+    width: 100%; }
+  .order-analytics-setting .table-header {
+    height: 40px;
+    background-color: #6D7AE0;
+    color: #ffffff;
+    text-align: center;
+    user-select: none; }
+  .order-analytics-setting .metadata-single {
+    height: 50px;
+    background-color: #ececec; }
+  .order-analytics-setting .meta-value {
+    margin-left: 8px; }
+  .order-analytics-setting .meta-key {
+    margin-left: 10px;
+    width: 90%; }
+  .order-analytics-setting > table > tbody .metadata-single {
+    text-align: center; }
+  .order-analytics-setting .metadata-body tr:nth-child(even) {
+    background-color: #dedede; }
